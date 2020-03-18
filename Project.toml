@@ -1,0 +1,13 @@
+name = "JuliaPackageTutorial"
+uuid = "a13b8beb-5d17-41eb-9f8d-77d27d48d2c7"
+authors = ["Hazil Mohamed"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
