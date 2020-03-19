@@ -3,8 +3,12 @@ uuid = "a13b8beb-5d17-41eb-9f8d-77d27d48d2c7"
 authors = ["Hazil Mohamed"]
 version = "0.1.0"
 
+[deps]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
 [compat]
 julia = "1"
+ForwardDiff="0.10.9"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

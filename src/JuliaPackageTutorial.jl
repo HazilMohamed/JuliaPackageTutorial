@@ -1,8 +1,7 @@
 module JuliaPackageTutorial
 
-greet() = print("Hello World!")
+using ForwardDiff
 
 include("extra.jl")
-export(my_f)
 
 end # module
